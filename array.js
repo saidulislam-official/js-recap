@@ -20,4 +20,31 @@ fruits.pop();
 console.log(fruits);
 
 
+fruits.unshift("Strawberry");
+console.log(fruits);
 
+
+fruits.shift();
+console.log(fruits);
+
+let numOffFruits = fruits.length;
+console.log(numOffFruits);
+
+
+let index = fruits.indexOf("orange");
+console.log(index);
+
+
+for(let i = 0; i<fruits.length; i++){
+    // console.log(fruits[i]);
+}
+
+for(let fruit of fruits){
+    console.log(fruit);
+}
+
+const fruitsSort = fruits.sort();
+console.log(fruitsSort);
+
+const reversort = fruits.sort().reverse();
+console.log(reversort);
