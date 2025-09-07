@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "steve bill",
+        "age" : 45,
+        "isOwner" : true
+    },
+    {
+        "name" : "ELON MUSK",
+        "age" : 55,
+        "isOwner" : false
+    }
+
+]
